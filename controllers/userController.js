@@ -11,7 +11,8 @@ const createUser = async (req, res) => {
         console.error(`Error: ${error}`);
         res.status(500).json({ message: 'Error occurred during user registration' });
     }
-};
+};   
+
 
 const findUser = async (req, res) => {
     try {
